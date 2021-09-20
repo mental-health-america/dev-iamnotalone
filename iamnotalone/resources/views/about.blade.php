@@ -1,7 +1,8 @@
 @extends('layout.master')
 @section('content')
-<div class="relative w-max-770 m-auto p-h-20 p-t-10 p-b-10">
-    <div class="w-full w-max-770 m-auto p-h-20 p-t-10 p-b-10" style="padding: 15px 30px;">
+<div class="relative w-max-700 m-auto p-h-20 p-t-10 p-b-10">
+    <div class="w-full w-max-700 m-auto p-h-20 p-t-10 p-b-10" style="padding: 15px 30px;">
+        <div><h2>Addressing Loneliness and Isolation</h2></div>
         <p>We are facing a loneliness epidemic that is impacting mental health and well-being. Research shows that 3 in 5 Americans feel lonely.<sup><a href="#_ftn1" name="_ftnref1" title="">[1]</a></sup> Additionally, <a href="https://mhanational.org/mental-health-and-covid-19-what-mha-screening-data-tells-us-about-impact-pandemic#Loneliness">Mental Health America’s (MHA) screening data</a> continues to show that loneliness and isolation are major concerns for people seeking help for their mental health. 71% of people in 2020 reported that loneliness or isolation was one of the top three things contributing to their mental health problems.</p><br />
 
         <p>We need to address this issue now. This is why MHA created a platform specifically designed to help this current need. <strong>When people have strong social relationships, they are 50% more likely to live longer!</strong> MHA’s I Am Not Alone site focuses on building meaningful relationships. We are an online digital community, created to help people build genuine connections and combat feelings of loneliness.</p><br />
@@ -11,29 +12,29 @@
         <p>Research indicates that <strong>loneliness can cause the same amount of damage as smoking 15 cigarettes a day.</strong><sup><a href="#_ftn2" name="_ftnref2" title="">[2]</a> </sup>Loneliness is far-reaching and impacts various communities.</p><br />
 
         <ul>
-            <li>Young people are more likely to be at risk for experiencing loneliness. <sup>1</sup></li>
+            <li>Young people are more likely to be at risk for experiencing loneliness. <sup><a href="#_ftn3" name="_ftnref3" title="">[1]</a></sup></li>
             <li>Black older adults have higher prevalence rates of loneliness and depressive symptoms.<sup><a href="#_ftn3" name="_ftnref3" title="">[3]</a></sup></li>
             <li>Immigrant, and lesbian, gay, and bisexual populations experience higher rates of loneliness.<sup><a href="#_ftn4" name="_ftnref4" title="">[4]</a></sup></li>
             <li>50% of people with disabilities will be lonely on any given day.<sup><a href="#_ftn5" name="_ftnref5" title="">[5]</a></sup></li>
-            <li>Those with lower incomes experience a higher loneliness score than those with higher incomes.<sup>1</sup></li>
+            <li>Those with lower incomes experience a higher loneliness score than those with higher incomes.<sup><a href="#_ftn3" name="_ftnref3" title="">[1]</a></sup></li>
         </ul>
     </div>
 
-<div class="well text-center">
+<div class="container">
     <div class="row">
         <div class="col-md-12"><strong>Help us solve the loneliness epidemic</strong></div>
-        <div class="col-xs-4"><a class="float-left img-thumbnail" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" width="250px" /> </a><br />
+        <div class="col-xs-4"><a class="w-max-250 m-5" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" /> </a><br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events">Attend</a></div>
 
-        <div class="col-xs-4"><a class="text-center img-thumbnail" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" width="250px" /> </a><br />
+        <div class="col-xs-4"><a class="w-max-250 m-5" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events/new">Create</a></div>
 
-        <div class="col-xs-4"><a class="float-right img-thumbnail" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" width="250px" /> </a><br />
+        <div class="col-xs-4"><a class="w-max-250 m-5" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/forum">Engage</a></div>
     </div>
 </div>
 
-<div>
+<div class="relative w-max-700 m-auto p-h-20 p-t-10 p-b-10">
     <hr align="left" size="1" width="33%" />
     <div id="ftn1">
     <h6><sup><a href="#_ftnref1" name="_ftn1" title="">[1]</a></sup><a href="https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness/cigna-2020-loneliness-factsheet.pdf">https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness/cigna-2020-loneliness-factsheet.pdf</a></h6>
