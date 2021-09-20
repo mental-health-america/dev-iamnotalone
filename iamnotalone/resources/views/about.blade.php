@@ -1,6 +1,6 @@
 @extends('layout.master')
 @section('content')
-
+<div class="w-full w-max-770 m-auto p-h-20 p-t-10 p-b-10">
 <p>We are facing a loneliness epidemic that is impacting mental health and well-being. Research shows that 3 in 5 Americans feel lonely.<sup><a href="#_ftn1" name="_ftnref1" title="">[1]</a></sup> Additionally, <a href="https://mhanational.org/mental-health-and-covid-19-what-mha-screening-data-tells-us-about-impact-pandemic#Loneliness">Mental Health America’s (MHA) screening data</a> continues to show that loneliness and isolation are major concerns for people seeking help for their mental health. 71% of people in 2020 reported that loneliness or isolation was one of the top three things contributing to their mental health problems.</p>
 
 <p>We need to address this issue now. This is why MHA created a platform specifically designed to help this current need. <strong>When people have strong social relationships, they are 50% more likely to live longer!</strong> MHA’s I Am Not Alone site focuses on building meaningful relationships. We are an online digital community, created to help people build genuine connections and combat feelings of loneliness.</p>
@@ -20,13 +20,13 @@
 <p class="text-align-center"><strong>Help us solve the loneliness epidemic</strong></p>
 
 <div class="row">
-<div class="col-xs-4 thumb"><a class="thumbnail" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" /> </a><br />
+<div class="col-xs-4 thumb"><a class="rounded float-left img-thumbnail" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" /> </a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events">Attend</a></div>
 
-<div class="col-xs-4 thumb"><a class="thumbnail" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
+<div class="col-xs-4 thumb"><a class="rounded text-center img-thumbnail" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events/new">Create</a></div>
 
-<div class="col-xs-4 thumb"><a class="thumbnail" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
+<div class="col-xs-4 thumb"><a class="rounded float-right img-thumbnail" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/forum">Engage</a></div>
 </div>
 
@@ -50,6 +50,7 @@
 
 <div id="ftn5">
 <p><b><sup><a href="#_ftnref5" name="_ftn5" title="">[5]</a></sup> <a href="https://www.sense.org.uk/support-us/campaigns/loneliness/">https://www.sense.org.uk/support-us/campaigns/loneliness/</a></b></p>
+</div>
 </div>
 </div>
 @endsection
