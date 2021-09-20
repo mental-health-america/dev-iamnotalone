@@ -17,17 +17,18 @@
     <li>Those with lower incomes experience a higher loneliness score than those with higher incomes.<sup>1</sup></li>
 </ul>
 
-<p class="text-align-center"><strong>Help us solve the loneliness epidemic</strong></p>
-
+<div class="well text-center">
 <div class="row">
-<div class="col-xs-4 thumb"><a class="rounded float-left img-thumbnail" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" /> </a><br />
+    <div class="col-md-12"><strong>Help us solve the loneliness epidemic</strong></div>
+<div class="col-xs-4"><a class="float-left img-thumbnail" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" width="250px" /> </a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events">Attend</a></div>
 
-<div class="col-xs-4 thumb"><a class="rounded text-center img-thumbnail" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
+<div class="col-xs-4"><a class="text-center img-thumbnail" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events/new">Create</a></div>
 
-<div class="col-xs-4 thumb"><a class="rounded float-right img-thumbnail" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
+<div class="col-xs-4"><a class="float-right img-thumbnail" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/forum">Engage</a></div>
+</div>
 </div>
 
 <div>
