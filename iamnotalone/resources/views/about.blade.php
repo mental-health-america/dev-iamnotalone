@@ -2,7 +2,7 @@
 @section('content')
 <div class="relative w-max-700 m-auto p-h-20 p-t-10 p-b-10">
     <div class="w-full w-max-700 m-auto p-h-20 p-t-10 p-b-10" style="padding: 15px 30px;">
-        <div><h2>Addressing Loneliness and Isolation</h2></div>
+        <div class="text-4xl">Addressing Loneliness and Isolation</div>
         <p>We are facing a loneliness epidemic that is impacting mental health and well-being. Research shows that 3 in 5 Americans feel lonely.<sup><a href="#_ftn1" name="_ftnref1" title="">[1]</a></sup> Additionally, <a href="https://mhanational.org/mental-health-and-covid-19-what-mha-screening-data-tells-us-about-impact-pandemic#Loneliness">Mental Health America’s (MHA) screening data</a> continues to show that loneliness and isolation are major concerns for people seeking help for their mental health. 71% of people in 2020 reported that loneliness or isolation was one of the top three things contributing to their mental health problems.</p><br />
 
         <p>We need to address this issue now. This is why MHA created a platform specifically designed to help this current need. <strong>When people have strong social relationships, they are 50% more likely to live longer!</strong> MHA’s I Am Not Alone site focuses on building meaningful relationships. We are an online digital community, created to help people build genuine connections and combat feelings of loneliness.</p><br />
