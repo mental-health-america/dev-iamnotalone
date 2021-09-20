@@ -20,21 +20,21 @@
         </ul>
     </div>
 
-<div class="container">
+<div class="w-full w-max-700 m-auto p-h-20 p-t-10 p-b-10" style="padding: 15px;">
     <div class="row">
         <div class="col-md-12"><strong>Help us solve the loneliness epidemic</strong></div>
-        <div class="col-xs-4"><a class="w-max-250 m-5" href="https://iamnotalone.mhanational.org/events"><img alt="" class="img-responsive" src="{{asset('images/about-attend.png')}}" /> </a><br />
+        <div class="col-xs-4"><a href="https://iamnotalone.mhanational.org/events"><img alt="" class="w-max-250 img-responsive" src="{{asset('images/about-attend.png')}}" /> </a><br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events">Attend</a></div>
 
-        <div class="col-xs-4"><a class="w-max-250 m-5" href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
+        <div class="col-xs-4"><a href="https://iamnotalone.mhanational.org/events/new"><img alt="" class="w-max-250 img-responsive" src="{{asset('images/about-create.png')}}" /> </a><br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/events/new">Create</a></div>
 
-        <div class="col-xs-4"><a class="w-max-250 m-5" href="https://iamnotalone.mhanational.org/forum"><img alt="" class="img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
+        <div class="col-xs-4"><a href="https://iamnotalone.mhanational.org/forum"><img alt="" class="w-max-250 img-responsive" src="{{asset('images/about-engage.png')}}" /> </a><br />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://iamnotalone.mhanational.org/forum">Engage</a></div>
     </div>
 </div>
 
-<div class="relative w-max-700 m-auto p-h-20 p-t-10 p-b-10">
+<div class="w-full w-max-700 m-auto p-h-20 p-t-10 p-b-10" style="padding: 15px;">
     <hr align="left" size="1" width="33%" />
     <div id="ftn1">
     <h6><sup><a href="#_ftnref1" name="_ftn1" title="">[1]</a></sup><a href="https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness/cigna-2020-loneliness-factsheet.pdf">https://www.cigna.com/static/www-cigna-com/docs/about-us/newsroom/studies-and-reports/combatting-loneliness/cigna-2020-loneliness-factsheet.pdf</a></h6>
