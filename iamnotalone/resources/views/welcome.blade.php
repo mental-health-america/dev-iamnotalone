@@ -148,8 +148,6 @@
     </div><!-- End mySwiper -->
     <!-- End Swiper -->
 
-    <!-- Header section ends here-->
-
     <section class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
 
         @if (!count($events))
