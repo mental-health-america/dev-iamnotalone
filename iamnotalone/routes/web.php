@@ -85,7 +85,9 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 //OpenGraph
-Route::get('/fetch', function () { return OpenGraph::fetch("https://iamnotalone.mhanational.org/")});
+Route::get('/fetch', function () { 
+    return OpenGraph::fetch("https://iamnotalone.mhanational.org/");
+});
 //Home route
 Route::Get('/', [ExtraController::class, 'home'])->name('home');
 //Events route
