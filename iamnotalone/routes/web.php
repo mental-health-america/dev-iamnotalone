@@ -84,10 +84,6 @@ Route::get('/faq', function () {
 Route::get('/about', function () {
     return view('about');
 })->name('about');
-//OpenGraph
-Route::get('/fetch', function () { 
-    return OpenGraph::fetch("https://iamnotalone.mhanational.org/");
-});
 //Home route
 Route::Get('/', [ExtraController::class, 'home'])->name('home');
 //Events route
@@ -168,6 +164,7 @@ Route::prefix('admin')->group(
                 Route::post('training/episode/new', [AdminController::class, 'newTrainingEpisode'])->name('training.episode.new');
                 Route::get('training/episode/{id}/remove', [AdminController::class, 'removeTrainingEpisode'])->name('training.episode.remove');
                 Route::post('training/episode/{id}/update', [AdminController::class, 'updateTrainingEpisode'])->name('training.episode.update');
+                Route::post('event/{id}/update', [AdminController::class, 'updateEvent'])->name('event.update');
             }
         );
     }
