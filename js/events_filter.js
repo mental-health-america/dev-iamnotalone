@@ -2,9 +2,9 @@ $(".description").hide();
 $("#filters > *").click( function () {
     $(".description").hide();
     $("#filters > *").removeClass('btn-active');
-    var filterValue = $(this).data('filter');
+    const filterValue = $(this).data('filter');
     $(this).addClass('btn-active');
-    if (filterValue == "*") {
+    if (filterValue === "*") {
         $("#target > *").show(500);
         $(".description").hide();
     } else {
