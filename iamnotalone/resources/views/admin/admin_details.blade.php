@@ -22,11 +22,11 @@
                 @endif
                 <p class="text-sm text-yellow-500 my-2"> <span class="uil uil-clock text-lg text-black"></span> {{\Carbon\Carbon::parse($event->start_date)->format('l')}}, {{date('h:i:s a', strtotime($event->start_time))}} PDT</p>
 
-                <!-- <p class="mt-6">
+                <p class="mt-6">
                     <a href="#" id="register" class="py-3 px-12 bg-indigo-400 hover:bg-indigo-700 focus:ring-indigo-500 flex-nowrap focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                         Register <i class="uil uil-check"></i>
                     </a>
-                </p> -->
+                </p>
             </div>
         </div>
     </div>
