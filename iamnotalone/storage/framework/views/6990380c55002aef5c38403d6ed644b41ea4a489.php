@@ -147,7 +147,7 @@
     </div><!-- End mySwiper -->
     <!-- End Swiper -->
 
-    <section class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section class="categories px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
 
         <?php if(!count($events)): ?>
             <p class="text-lg mt-4 text-gray-600"> There are no registered events at the moment.</p>

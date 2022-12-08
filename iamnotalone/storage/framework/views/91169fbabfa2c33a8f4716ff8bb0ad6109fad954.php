@@ -1,6 +1,6 @@
 <?php $__env->startSection('content'); ?>
 
-<section class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+<section class="categories px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="text-left">
         <h2 class="text-xl font-bold text-indigo-400 uppercase">Registered Events</h2>
     </div>
@@ -47,7 +47,7 @@
 </section>
 
 <?php if(Auth::user()->organizer): ?>
-    <section class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section class="categories px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="text-left">
             <h2 class="text-xl font-bold text-indigo-400 uppercase">Organized Events</h2>
         </div>
@@ -73,7 +73,7 @@
                                     </h5>
                                 </a>
                                 <p class="mt-3 text-sm text-gray-600">
-                                    <?php echo e(substr($event->description, 0, 100)); ?> 
+                                    <?php echo e(substr($event->description, 0, 100)); ?>
                                 </p>
                             </div>
 
