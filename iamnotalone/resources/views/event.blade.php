@@ -4,7 +4,7 @@
 @endsection
 @section('content')
     <div class="container">
-        <div class="md:w-4/6 mx-auto">
+        <div class=" {{$event->category}} md:w-4/6 mx-auto">
             <div class="flex flex-col">
                 <div class="">
                     <img class="object-cover h-auto md:h-96 w-full rounded-xl" alt="Event title" src="{{asset($event->banner)}}">
